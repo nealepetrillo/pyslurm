@@ -1,0 +1,18 @@
+dependencies:
+  - python
+  - python-dev
+  - python-setuptools
+  - cython
+
+build_dependencies:
+  - libslurm-dev
+
+targets:
+  ubuntu-16-04:
+  debian-8:
+  centos-6:
+  centos-7:
+  sles-11:
+  sles-12:
+
+notifications: false
