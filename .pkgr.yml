@@ -1,11 +1,11 @@
 dependencies:
   - python
-  - python-dev
-  - python-setuptools
-  - cython
 
 build_dependencies:
   - libslurm-dev
+  - python-dev
+  - python-setuptools
+  - cython
 
 targets:
   ubuntu-16-04:
@@ -15,4 +15,5 @@ targets:
   sles-11:
   sles-12:
 
+cli: false
 notifications: false
